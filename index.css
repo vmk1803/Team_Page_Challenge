@@ -1,0 +1,154 @@
+.team-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  max-width: 1228px;
+  margin: auto;
+}
+
+.team-page-info-box {
+  width: 30%;
+}
+
+.team-page-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-page-main-heading {
+  font-family: serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  letter-spacing: -4.5%;
+}
+
+.team-page-header-heading {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.team-page-header-info {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.team-info {
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  /* gap: 30px; */
+}
+
+.member-details-container {
+  padding: 0px 30px 0px 30px;
+}
+
+.member-details img {
+  width: 100%;
+}
+
+.member-details {
+  display: flex;
+  position: relative;
+}
+
+.member-details p {
+  position: absolute;
+  transform: rotate(90deg);
+  width: 100%;
+  top: 30%;
+  left: 55%;
+}
+
+.member-role {
+  font-family: serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.member-name {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+#emp-2,
+#emp-5 {
+  position: relative;
+  top: 20%;
+}
+
+@media (max-width: 575.75px) {
+  .team-page-wrapper {
+    gap: 50px;
+  }
+  .team-page-header {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 10px 0px 10px;
+  }
+  .team-page-info-box {
+    width: 100%;
+  }
+  .team-page-main-heading {
+    font-family: serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: -4.5%;
+  }
+  .team-page-header-heading {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .team-page-header-info {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .team-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* gap: 30px; */
+  }
+  .member-details-container {
+    padding: 0px 20px 0px 20px;
+  }
+  .member-details img {
+    width: 100%;
+  }
+  .member-details {
+    display: flex;
+    position: relative;
+  }
+  .member-details p {
+    position: absolute;
+    transform: rotate(90deg);
+    width: 100%;
+    top: 25%;
+    left: 60%;
+  }
+  .team-info > div:nth-child(even) {
+    position: relative;
+    top: 20%;
+  }
+  .member-role {
+    font-family: serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .member-name {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
